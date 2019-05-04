@@ -2,8 +2,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { MainComponent } from './main/main.component';
 import { MainModule } from './main/main.module';
+import { WelcomeModule } from './welcome/welcome.module';
 
 @NgModule({
   declarations: [
@@ -14,7 +14,8 @@ import { MainModule } from './main/main.module';
 
   imports: [
     BrowserModule,
-    MainModule
+    MainModule,
+    WelcomeModule
   ]
 
   
